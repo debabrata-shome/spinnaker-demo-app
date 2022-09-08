@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  myappdemo:
+    image: deb-demo-image:v1
+    build: .
+    container_name: deb-demo-app
+    ports:
+      - "3000:80"   
+    
